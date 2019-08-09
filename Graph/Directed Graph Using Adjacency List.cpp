@@ -1,3 +1,4 @@
+Thanks to Shafaet's Blog || Resource: http://www.shafaetsplanet.com/planetcoding/?p=211
 #include <cstdio>
 #include <vector>
 using namespace std;
