@@ -1,4 +1,4 @@
-Thanks to Shafaet's Blog || Resource: http://www.shafaetsplanet.com/planetcoding/?p=211
+Thanks to Shafaets Blog || Resource: http://www.shafaetsplanet.com/planetcoding/?p=211
 #include <cstdio>
 #include <vector>
 using namespace std;
@@ -47,7 +47,7 @@ void inDegree(int nedges)
     for(int j=0; j < edges[i].size(); j++)
       if(x==edges[i][j])
         printf("%d\n",i);
-  }
+  
 }
 void outDegree()
 {
