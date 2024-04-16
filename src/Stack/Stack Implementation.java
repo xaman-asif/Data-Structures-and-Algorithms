@@ -1,3 +1,5 @@
+package Stack;
+
 class Stack {
     static final int max_size = 3;
     int top_pointer = -1;
