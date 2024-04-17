@@ -19,9 +19,32 @@ public class ArrayCompression {
         1,
         -2
     };
+
+    int assign = 0, c = 0, n = input.length;
+    int[] compressed = new int[100];
+
+    for (int i = 0; i < n; i++) {
+      int x = input[i];
+
+      if (!mymap.containsKey(x)) {
+        mymap.put(x, assign);
+        System.out.printf("Mapping %d with %d\n", x, assign);
+        assign++;
+      }
+
+      x = mymap.get(x);
+      compressed[c++] = x;
+    }
+
+    System.out.print("Compressed array: ");
+    for (int i = 0; i < n; i++) {
+      System.out.printf("%d", compressed[i]);
+    }
+
+    System.out.println();
   }
 
   public static void main(String[] args) {
-
+    compress();
   }
 }
