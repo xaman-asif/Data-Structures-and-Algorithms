@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-struct tree{
+struct tree
+{
   char data;
   tree *left;
   tree *right;
@@ -11,10 +12,10 @@ typedef struct tree node;
 
 void InOrder(node *root)
 {
-  if(root->left != NULL)
+  if (root->left != NULL)
     InOrder(root->left);
   printf("%c", root->data);
-  if(root->right != NULL)
+  if (root->right != NULL)
     InOrder(root->right);
 }
 void CreateTree(node *root)
@@ -25,27 +26,29 @@ void CreateTree(node *root)
   printf("%c has any left child? ", root->data);
 
   fflush(stdin);
-  scanf("%c",&ans);
+  scanf("%c", &ans);
 
-  if(toupper(ans)=='Y'){
+  if (toupper(ans) == 'Y')
+  {
     root->left = new node();
     fflush(stdout);
-    printf("Enter Left Child Data of %c: ",root->data);
+    printf("Enter Left Child Data of %c: ", root->data);
     fflush(stdin);
-    scanf("%c",&root->left->data);
+    scanf("%c", &root->left->data);
   }
   else
     root->left = NULL;
   fflush(stdout);
   printf("%c has any right child?: ", root->data);
   fflush(stdin);
-  scanf("%c",&ans);
-  if(toupper(ans)=='Y'){
+  scanf("%c", &ans);
+  if (toupper(ans) == 'Y')
+  {
     root->right = new node();
     fflush(stdout);
-    printf("Enter Right Child Data of %c: ",root->data);
+    printf("Enter Right Child Data of %c: ", root->data);
     fflush(stdin);
-    scanf("%c",&root->right->data);
+    scanf("%c", &root->right->data);
   }
   else
     root->right = NULL;
@@ -55,7 +58,7 @@ void CreateTree(node *root)
 }
 int main()
 {
-  node* root = new node();
+  node *root = new node();
   printf("Enter Root Data: ");
   scanf("%c", &root->data);
   CreateTree(root);
