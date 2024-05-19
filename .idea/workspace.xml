@@ -1,32 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3669cb82-076e-4076-8567-55e15c884219" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Data-Structures-and-Algorithms2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/GitCommitMessageStorage.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data Structure/Array/ArrayCompression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/Array/ArrayCompression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data Structure/Linked List/Append A Node.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/Linked_List/Append A Node.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data Structure/Linked List/Array Implementation of Adjacency List.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/Linked_List/Array Implementation of Adjacency List.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data Structure/Linked List/Basic Linked List Implementation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/Linked_List/Basic Linked List Implementation.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data Structure/Linked List/Creating A Node Dobly Linked List.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/Linked_List/Creating A Node Dobly Linked List.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data Structure/Linked List/Creating A Node.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/Linked_List/Creating A Node.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data Structure/Linked List/Linked List.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/Linked_List/Linked List.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data Structure/Linked List/Remove A Node.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/Linked_List/Remove A Node.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data Structure/Linked List/Singly Linked List.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/Linked_List/Singly Linked List.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data Structure/Stack/Stack Implementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/Stack/Stack Implementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data Structure/Tree/Binary Tree/In Order Traversal Binary Tree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/Tree/Binary Tree/In Order Traversal Binary Tree.cpp" afterDir="false" />
+    <list default="true" id="3669cb82-076e-4076-8567-55e15c884219" name="Changes" comment="Folder restructured">
+      <change afterPath="$PROJECT_DIR$/src/Number_Theory/Sieve_of_Eratosthenes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Data-Structures-and-Algorithms/Data_Structure/Linked List/Append A Node.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Data-Structures-and-Algorithms/Data_Structure/Linked List/Array Implementation of Adjacency List.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Data-Structures-and-Algorithms/Data_Structure/Linked List/Basic Linked List Implementation.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Data-Structures-and-Algorithms/Data_Structure/Linked List/Creating A Node Dobly Linked List.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Data-Structures-and-Algorithms/Data_Structure/Linked List/Creating A Node.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Data-Structures-and-Algorithms/Data_Structure/Linked List/Linked List.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Data-Structures-and-Algorithms/Data_Structure/Linked List/Remove A Node.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Data-Structures-and-Algorithms/Data_Structure/Linked List/Singly Linked List.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Data-Structures-and-Algorithms/Data_Structure/Tree/Binary Tree/In Order Traversal Binary Tree.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Data-Structures-and-Algorithms/Stack/Stack.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,16 +58,21 @@
     "Application.ArrayCompression.executor": "Run",
     "Application.BinarySearch.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Sieve_of_Eratosthenes.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/asifujjamanopi/Downloads",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ArrayCompression">
+  <component name="RunManager" selected="Application.Sieve_of_Eratosthenes">
     <configuration name="ArrayCompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Data_Structure.Array.ArrayCompression" />
       <module name="Data-Structures-and-Algorithms" />
@@ -99,8 +106,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Sieve_of_Eratosthenes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Number_Theory.Sieve_of_Eratosthenes" />
+      <module name="Data-Structures-and-Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Number_Theory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sieve_of_Eratosthenes" />
         <item itemvalue="Application.ArrayCompression" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.Main" />
@@ -123,11 +144,55 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716111177691</updated>
-      <workItem from="1716111178722" duration="213000" />
+      <workItem from="1716111178722" duration="6405000" />
     </task>
+    <task id="LOCAL-00001" summary="Folder restructured">
+      <option name="closed" value="true" />
+      <created>1716111500393</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716111500393</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Folder restructured" />
+    <option name="LAST_COMMIT_MESSAGE" value="Folder restructured" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Number_Theory/Sieve_of_Eratosthenes.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Number_Theory/Sieve_of_Eratosthenes.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Number_Theory/Sieve_of_Eratosthenes.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Number_Theory/Sieve_of_Eratosthenes.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Number_Theory/Sieve_of_Eratosthenes.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
