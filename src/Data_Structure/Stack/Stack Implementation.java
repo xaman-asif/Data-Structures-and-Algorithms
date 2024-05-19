@@ -1,4 +1,4 @@
-package Stack;
+package Data_Structure.Stack;
 
 class Stack {
     static final int max_size = 3;

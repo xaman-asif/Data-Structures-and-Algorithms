@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3669cb82-076e-4076-8567-55e15c884219" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Data-Structures-and-Algorithms2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/GitCommitMessageStorage.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApplicationRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data Structure/Array/ArrayCompression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/Array/ArrayCompression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data Structure/Linked List/Append A Node.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/Linked_List/Append A Node.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data Structure/Linked List/Array Implementation of Adjacency List.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/Linked_List/Array Implementation of Adjacency List.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data Structure/Linked List/Basic Linked List Implementation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/Linked_List/Basic Linked List Implementation.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data Structure/Linked List/Creating A Node Dobly Linked List.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/Linked_List/Creating A Node Dobly Linked List.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data Structure/Linked List/Creating A Node.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/Linked_List/Creating A Node.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data Structure/Linked List/Linked List.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/Linked_List/Linked List.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data Structure/Linked List/Remove A Node.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/Linked_List/Remove A Node.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data Structure/Linked List/Singly Linked List.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/Linked_List/Singly Linked List.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data Structure/Stack/Stack Implementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/Stack/Stack Implementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data Structure/Tree/Binary Tree/In Order Traversal Binary Tree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/Tree/Binary Tree/In Order Traversal Binary Tree.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "xaman-asif"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/xaman-asif/Data-Structures-and-Algorithms.git",
+    "accountId": "c007fa11-a1c8-4844-8cfe-884e6d307982"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2ggFBDxkvUqdKgMbN4csl6N276r" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArrayCompression.executor": "Run",
+    "Application.BinarySearch.executor": "Run",
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/asifujjamanopi/Downloads",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.ArrayCompression">
+    <configuration name="ArrayCompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Data_Structure.Array.ArrayCompression" />
+      <module name="Data-Structures-and-Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Data_Structure.Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Searching.BinarySearch" />
+      <module name="Data-Structures-and-Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Searching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Data-Structures-and-Algorithms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ArrayCompression" />
+        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3669cb82-076e-4076-8567-55e15c884219" name="Changes" comment="" />
+      <created>1716111177691</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716111177691</updated>
+      <workItem from="1716111178722" duration="213000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

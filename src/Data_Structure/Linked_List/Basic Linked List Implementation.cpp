@@ -79,11 +79,9 @@ void delete_node (int data)
 void add_node (int data1, int data2, int data)
 {
     node *current_node = root;
-    node *previous_node = NULL;
     //searching for these two nodes
     while (current_node->data != data1 && current_node->next->data != data2)
     {
-        previous_node = current_node;
         current_node = current_node->next;
     }
     //creating a new node

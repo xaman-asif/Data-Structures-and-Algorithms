@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+//node is an alias here, from here we can use Node instead of struct node
 typedef struct node Node;
 
 struct node {
@@ -44,6 +45,7 @@ int main()
 
     a->data=10;
     a->next=b;
+    
     b->data=20;
     b->next=NULL;
     //Appending 30 after A then B
