@@ -24,6 +24,11 @@ public class Sieve_of_Eratosthenes {
 
   public static void main(String[] args) {
     boolean[] status = new boolean[51];
-     siv(50, status);
+    siv(50, status);
+    for (int i = 0; i < status.length; i++) {
+      if (!status[i]) {
+        System.out.println(i);
+      }
+    }
   }
 }

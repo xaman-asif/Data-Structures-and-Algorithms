@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3669cb82-076e-4076-8567-55e15c884219" name="Changes" comment="Folder restructured">
-      <change afterPath="$PROJECT_DIR$/src/Number_Theory/Sieve_of_Eratosthenes.java" afterDir="false" />
+    <list default="true" id="3669cb82-076e-4076-8567-55e15c884219" name="Changes" comment="partial implementation of sieve of eratosthenes">
+      <change afterPath="$PROJECT_DIR$/src/Number_Theory/Sieve_of_Eratosthenes2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Data-Structures-and-Algorithms/Data_Structure/Linked List/Append A Node.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Data-Structures-and-Algorithms/Data_Structure/Linked List/Array Implementation of Adjacency List.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Data-Structures-and-Algorithms/Data_Structure/Linked List/Basic Linked List Implementation.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Data-Structures-and-Algorithms/Data_Structure/Linked List/Creating A Node Dobly Linked List.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Data-Structures-and-Algorithms/Data_Structure/Linked List/Creating A Node.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Data-Structures-and-Algorithms/Data_Structure/Linked List/Linked List.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Data-Structures-and-Algorithms/Data_Structure/Linked List/Remove A Node.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Data-Structures-and-Algorithms/Data_Structure/Linked List/Singly Linked List.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Data-Structures-and-Algorithms/Data_Structure/Tree/Binary Tree/In Order Traversal Binary Tree.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Data-Structures-and-Algorithms/Stack/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Number_Theory/Sieve_of_Eratosthenes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Number_Theory/Sieve_of_Eratosthenes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,47 +23,54 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "xaman-asif"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;xaman-asif&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/xaman-asif/Data-Structures-and-Algorithms.git",
-    "accountId": "c007fa11-a1c8-4844-8cfe-884e6d307982"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/xaman-asif/Data-Structures-and-Algorithms.git&quot;,
+    &quot;accountId&quot;: &quot;c007fa11-a1c8-4844-8cfe-884e6d307982&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2ggFBDxkvUqdKgMbN4csl6N276r" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ArrayCompression.executor": "Run",
-    "Application.BinarySearch.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Sieve_of_Eratosthenes.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/asifujjamanopi/Downloads",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArrayCompression.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinarySearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sieve_of_Eratosthenes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sieve_of_Eratosthenes2.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/asifujjamanopi/IdeaProjects/register-process&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Sieve_of_Eratosthenes">
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Number_Theory" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Sieve_of_Eratosthenes2">
     <configuration name="ArrayCompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Data_Structure.Array.ArrayCompression" />
       <module name="Data-Structures-and-Algorithms" />
@@ -119,8 +117,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Sieve_of_Eratosthenes2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Number_Theory.Sieve_of_Eratosthenes2" />
+      <module name="Data-Structures-and-Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Number_Theory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sieve_of_Eratosthenes2" />
         <item itemvalue="Application.Sieve_of_Eratosthenes" />
         <item itemvalue="Application.ArrayCompression" />
         <item itemvalue="Application.BinarySearch" />
@@ -144,7 +156,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716111177691</updated>
-      <workItem from="1716111178722" duration="6405000" />
+      <workItem from="1716111178722" duration="6482000" />
+      <workItem from="1716182405093" duration="203000" />
+      <workItem from="1716801914740" duration="7593000" />
+      <workItem from="1716816691429" duration="641000" />
     </task>
     <task id="LOCAL-00001" summary="Folder restructured">
       <option name="closed" value="true" />
@@ -154,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716111500393</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="partial implementation of sieve of eratosthenes">
+      <option name="closed" value="true" />
+      <created>1716120739283</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716120739283</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +185,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Folder restructured" />
-    <option name="LAST_COMMIT_MESSAGE" value="Folder restructured" />
+    <MESSAGE value="partial implementation of sieve of eratosthenes" />
+    <option name="LAST_COMMIT_MESSAGE" value="partial implementation of sieve of eratosthenes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -191,6 +215,26 @@
           <url>file://$PROJECT_DIR$/src/Number_Theory/Sieve_of_Eratosthenes.java</url>
           <line>21</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Number_Theory/Sieve_of_Eratosthenes2.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Number_Theory/Sieve_of_Eratosthenes2.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Number_Theory/Sieve_of_Eratosthenes2.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Number_Theory/Sieve_of_Eratosthenes2.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
