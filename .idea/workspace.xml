@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3669cb82-076e-4076-8567-55e15c884219" name="Changes" comment="partial implementation of sieve of eratosthenes">
-      <change afterPath="$PROJECT_DIR$/src/Number_Theory/Sieve_of_Eratosthenes2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Number_Theory/BitwiseSieve.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Number_Theory/Sieve_of_Eratosthenes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Number_Theory/Sieve_of_Eratosthenes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +69,7 @@
       <recent name="Number_Theory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Sieve_of_Eratosthenes2">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="ArrayCompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Data_Structure.Array.ArrayCompression" />
       <module name="Data-Structures-and-Algorithms" />
@@ -132,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Sieve_of_Eratosthenes2" />
         <item itemvalue="Application.Sieve_of_Eratosthenes" />
         <item itemvalue="Application.ArrayCompression" />
         <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -182,6 +181,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Folder restructured" />
