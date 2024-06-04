@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3669cb82-076e-4076-8567-55e15c884219" name="Changes" comment="partial implementation of sieve of eratosthenes">
+    <list default="true" id="3669cb82-076e-4076-8567-55e15c884219" name="Changes" comment="implementation of sieve of eratosthenes (bitwise operation)">
+      <change afterPath="$PROJECT_DIR$/src/Number_Theory/BitwiseSieve2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Number_Theory/BitwiseSieve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Number_Theory/BitwiseSieve.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +49,7 @@
     "Application.ArrayCompression.executor": "Run",
     "Application.BinarySearch.executor": "Run",
     "Application.BitwiseSieve.executor": "Run",
+    "Application.BitwiseSieve2.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Sieve_of_Eratosthenes.executor": "Run",
     "Application.Sieve_of_Eratosthenes2.executor": "Debug",
@@ -70,13 +71,13 @@
       <recent name="Number_Theory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BitwiseSieve">
-    <configuration name="ArrayCompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Data_Structure.Array.ArrayCompression" />
+  <component name="RunManager" selected="Application.BitwiseSieve2">
+    <configuration name="BitwiseSieve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Number_Theory.BitwiseSieve" />
       <module name="Data-Structures-and-Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Data_Structure.Array.*" />
+          <option name="PATTERN" value="Number_Theory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BitwiseSieve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Number_Theory.BitwiseSieve" />
+    <configuration name="BitwiseSieve2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Number_Theory.BitwiseSieve2" />
       <module name="Data-Structures-and-Algorithms" />
       <extension name="coverage">
         <pattern>
@@ -132,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BitwiseSieve2" />
         <item itemvalue="Application.BitwiseSieve" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Sieve_of_Eratosthenes2" />
         <item itemvalue="Application.Sieve_of_Eratosthenes" />
-        <item itemvalue="Application.ArrayCompression" />
       </list>
     </recent_temporary>
   </component>
@@ -160,6 +161,7 @@
       <workItem from="1716182405093" duration="203000" />
       <workItem from="1716801914740" duration="7593000" />
       <workItem from="1716816691429" duration="641000" />
+      <workItem from="1717499542068" duration="2973000" />
     </task>
     <task id="LOCAL-00001" summary="Folder restructured">
       <option name="closed" value="true" />
@@ -177,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716120739283</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="implementation of sieve of eratosthenes (bitwise operation)">
+      <option name="closed" value="true" />
+      <created>1717498862791</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717498862791</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,7 +207,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Folder restructured" />
     <MESSAGE value="partial implementation of sieve of eratosthenes" />
-    <option name="LAST_COMMIT_MESSAGE" value="partial implementation of sieve of eratosthenes" />
+    <MESSAGE value="implementation of sieve of eratosthenes (bitwise operation)" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementation of sieve of eratosthenes (bitwise operation)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
