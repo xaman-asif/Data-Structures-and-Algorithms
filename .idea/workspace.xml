@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3669cb82-076e-4076-8567-55e15c884219" name="Changes" comment="implementation of sieve of eratosthenes (bitwise operation)">
-      <change afterPath="$PROJECT_DIR$/src/Number_Theory/BitwiseSieve2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Number_Theory/BitwiseSieve2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Number_Theory/BitwiseSieve2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,28 +44,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ArrayCompression.executor": "Run",
-    "Application.BinarySearch.executor": "Run",
-    "Application.BitwiseSieve.executor": "Run",
-    "Application.BitwiseSieve2.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Sieve_of_Eratosthenes.executor": "Run",
-    "Application.Sieve_of_Eratosthenes2.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/asifujjamanopi/IdeaProjects/Data-Structures-and-Algorithms",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArrayCompression.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinarySearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BitwiseSieve.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BitwiseSieve2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sieve_of_Eratosthenes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sieve_of_Eratosthenes2.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/asifujjamanopi/IdeaProjects/Data-Structures-and-Algorithms&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Number_Theory" />
@@ -161,7 +161,8 @@
       <workItem from="1716182405093" duration="203000" />
       <workItem from="1716801914740" duration="7593000" />
       <workItem from="1716816691429" duration="641000" />
-      <workItem from="1717499542068" duration="2973000" />
+      <workItem from="1717499542068" duration="2993000" />
+      <workItem from="1717564991609" duration="6127000" />
     </task>
     <task id="LOCAL-00001" summary="Folder restructured">
       <option name="closed" value="true" />
@@ -187,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717498862791</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="implementation of sieve of eratosthenes (bitwise operation)">
+      <option name="closed" value="true" />
+      <created>1717503178817</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717503178817</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

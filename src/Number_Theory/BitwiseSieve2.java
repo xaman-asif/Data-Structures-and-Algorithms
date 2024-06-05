@@ -12,18 +12,21 @@ public class BitwiseSieve2 {
     System.out.println(2);
 
     for (int i = 3; i <= N; i += 2) {
-      if (!checkBit(primes[i >> 5], i & 31)) {
+      if (checkBit(primes[i >> 5], i & 31)) {
+        // This is also similar to i >> 5 = i / 32 and i % 32 = i & 31
         System.out.println(i);
       }
     }
   }
 
   public static int setBit(int n, int position) {
+    // set the index as 1 non prime number
     return n | (1 << position);
   }
 
   public static boolean checkBit(int n, int position) {
-    return (n & (1 << position)) != 0;
+    // returns true for a prime number index
+    return (n & (1 << position)) == 0;
   }
 
   public static int[] primeGenerator(int n, int[] prime) {
@@ -37,7 +40,7 @@ public class BitwiseSieve2 {
     }
 
     for (int i = 3; i <= x; i += 2) {
-      if (!checkBit(prime[i / 32], i % 32)) {
+      if (checkBit(prime[i / 32], i % 32)) {
         for (int j = i + i; j <= n; j += i) {
           prime[j / 32] = setBit(prime[j / 32], j % 32);
         }
