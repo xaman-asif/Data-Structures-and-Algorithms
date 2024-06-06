@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3669cb82-076e-4076-8567-55e15c884219" name="Changes" comment="implementation of sieve of eratosthenes (bitwise operation)">
-      <change afterPath="$PROJECT_DIR$/src/Number_Theory/Sieve_of_Eratosthenes3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Number_Theory/Sieve_of_Eratosthenes4.java" afterDir="false" />
+    <list default="true" id="3669cb82-076e-4076-8567-55e15c884219" name="Changes" comment="implementation of sieve of eratosthenes (partial)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Number_Theory/Sieve_of_Eratosthenes4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Number_Theory/Sieve_of_Eratosthenes4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +54,7 @@
     "Application.Sieve_of_Eratosthenes.executor": "Run",
     "Application.Sieve_of_Eratosthenes2.executor": "Debug",
     "Application.Sieve_of_Eratosthenes3.executor": "Run",
+    "Application.Sieve_of_Eratosthenes4.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -73,7 +73,7 @@
       <recent name="Number_Theory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Sieve_of_Eratosthenes3">
+  <component name="RunManager" selected="Application.BitwiseSieve2">
     <configuration name="BitwiseSieve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Number_Theory.BitwiseSieve" />
       <module name="Data-Structures-and-Algorithms" />
@@ -107,19 +107,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sieve_of_Eratosthenes2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Number_Theory.Sieve_of_Eratosthenes2" />
-      <module name="Data-Structures-and-Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Number_Theory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Sieve_of_Eratosthenes3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Number_Theory.Sieve_of_Eratosthenes3" />
       <module name="Data-Structures-and-Algorithms" />
@@ -133,13 +120,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Sieve_of_Eratosthenes4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Number_Theory.Sieve_of_Eratosthenes4" />
+      <module name="Data-Structures-and-Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Number_Theory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Sieve_of_Eratosthenes3" />
         <item itemvalue="Application.BitwiseSieve2" />
+        <item itemvalue="Application.Sieve_of_Eratosthenes4" />
+        <item itemvalue="Application.Sieve_of_Eratosthenes3" />
         <item itemvalue="Application.BitwiseSieve" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Sieve_of_Eratosthenes2" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +167,8 @@
       <workItem from="1717564991609" duration="7452000" />
       <workItem from="1717595228417" duration="607000" />
       <workItem from="1717650154722" duration="636000" />
-      <workItem from="1717669605204" duration="3522000" />
+      <workItem from="1717669605204" duration="3619000" />
+      <workItem from="1717675646478" duration="3119000" />
     </task>
     <task id="LOCAL-00001" summary="Folder restructured">
       <option name="closed" value="true" />
@@ -209,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717591326393</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="implementation of sieve of eratosthenes (partial)">
+      <option name="closed" value="true" />
+      <created>1717674780842</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717674780842</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +239,8 @@
     <MESSAGE value="Folder restructured" />
     <MESSAGE value="partial implementation of sieve of eratosthenes" />
     <MESSAGE value="implementation of sieve of eratosthenes (bitwise operation)" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementation of sieve of eratosthenes (bitwise operation)" />
+    <MESSAGE value="implementation of sieve of eratosthenes (partial)" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementation of sieve of eratosthenes (partial)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -329,6 +339,16 @@
           <url>file://$PROJECT_DIR$/src/Number_Theory/BitwiseSieve.java</url>
           <line>34</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Number_Theory/Sieve_of_Eratosthenes4.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Number_Theory/Sieve_of_Eratosthenes4.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
