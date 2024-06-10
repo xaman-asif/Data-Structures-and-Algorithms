@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3669cb82-076e-4076-8567-55e15c884219" name="Changes" comment="implementation of bitwise sieve (Final)">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="3669cb82-076e-4076-8567-55e15c884219" name="Changes" comment="added gitignore">
+      <change afterPath="$PROJECT_DIR$/src/Number_Theory/Miller_Rabin_Primality_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Number_Theory/PrimeFactorization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,37 +46,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ArrayCompression.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BinarySearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BitwiseSieve.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BitwiseSieve2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BitwiseSieve3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Sieve_of_Eratosthenes.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Sieve_of_Eratosthenes2.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Sieve_of_Eratosthenes3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Sieve_of_Eratosthenes4.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/asifujjamanopi/IdeaProjects/Data-Structures-and-Algorithms&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArrayCompression.executor": "Run",
+    "Application.BinarySearch.executor": "Run",
+    "Application.BitwiseSieve.executor": "Run",
+    "Application.BitwiseSieve2.executor": "Run",
+    "Application.BitwiseSieve3.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.PrimeFactorization.executor": "Run",
+    "Application.Sieve_of_Eratosthenes.executor": "Run",
+    "Application.Sieve_of_Eratosthenes2.executor": "Debug",
+    "Application.Sieve_of_Eratosthenes3.executor": "Run",
+    "Application.Sieve_of_Eratosthenes4.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/asifujjamanopi/IdeaProjects/Data-Structures-and-Algorithms",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Number_Theory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BitwiseSieve3">
+  <component name="RunManager" selected="Application.PrimeFactorization">
     <configuration name="BitwiseSieve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Number_Theory.BitwiseSieve" />
       <module name="Data-Structures-and-Algorithms" />
@@ -114,9 +117,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="PrimeFactorization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Number_Theory.PrimeFactorization" />
       <module name="Data-Structures-and-Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Number_Theory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -136,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrimeFactorization" />
         <item itemvalue="Application.BitwiseSieve3" />
         <item itemvalue="Application.BitwiseSieve2" />
         <item itemvalue="Application.Sieve_of_Eratosthenes3" />
         <item itemvalue="Application.BitwiseSieve" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +182,9 @@
       <workItem from="1717823510934" duration="3161000" />
       <workItem from="1717830853320" duration="2603000" />
       <workItem from="1717922286888" duration="4470000" />
-      <workItem from="1717932093636" duration="628000" />
+      <workItem from="1717932093636" duration="668000" />
+      <workItem from="1717996531476" duration="3432000" />
+      <workItem from="1718002868804" duration="5881000" />
     </task>
     <task id="LOCAL-00001" summary="Folder restructured">
       <option name="closed" value="true" />
@@ -239,7 +250,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717928365716</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added gitignore">
+      <option name="closed" value="true" />
+      <created>1717939381737</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1717939381737</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,7 +281,8 @@
     <MESSAGE value="implementation of sieve of eratosthenes (bitwise operation)" />
     <MESSAGE value="implementation of sieve of eratosthenes (partial)" />
     <MESSAGE value="implementation of bitwise sieve (Final)" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementation of bitwise sieve (Final)" />
+    <MESSAGE value="added gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="added gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -371,6 +391,21 @@
           <url>file://$PROJECT_DIR$/src/Number_Theory/BitwiseSieve3.java</url>
           <line>28</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Number_Theory/PrimeFactorization.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Number_Theory/PrimeFactorization.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Number_Theory/PrimeFactorization.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
