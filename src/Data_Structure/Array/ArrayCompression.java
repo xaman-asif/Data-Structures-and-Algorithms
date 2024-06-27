@@ -5,6 +5,7 @@ import java.util.HashMap;
 public class ArrayCompression {
   public static void compress() {
     HashMap<Integer, Integer> mymap = new HashMap<>();
+    HashMap<Integer, Integer> demap = new HashMap<>();
 
     int[] input = {
         -102,
@@ -28,6 +29,7 @@ public class ArrayCompression {
 
       if (!mymap.containsKey(x)) {
         mymap.put(x, assign);
+        demap.put(assign, x);
         System.out.printf("Mapping %d with %d\n", x, assign);
         assign++;
       }
@@ -42,6 +44,11 @@ public class ArrayCompression {
     }
 
     System.out.println();
+
+    System.out.println("Decompressed array: ");
+    for (int i = 0; i < n; i++) {
+      System.out.printf("%d\n", demap.get(compressed[i]));
+    }
   }
 
   public static void main(String[] args) {
