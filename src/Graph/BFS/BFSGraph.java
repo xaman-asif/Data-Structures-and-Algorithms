@@ -4,12 +4,10 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 // Class to represent a graph using adjacency list
-public class Graph {
+public class BFSGraph {
   int vertices;
   LinkedList<Integer>[] adjList;
-
-  @SuppressWarnings("unchecked")
-  Graph(int vertices) {
+  BFSGraph(int vertices) {
     this.vertices = vertices;
     adjList = new LinkedList[vertices];
     for (int i = 0; i < vertices; ++i) {
