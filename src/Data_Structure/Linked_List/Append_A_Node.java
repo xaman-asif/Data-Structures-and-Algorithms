@@ -10,7 +10,7 @@ public class Append_A_Node {
   }
 
   static Node append(Node head, int item) {
-    Node newNode = new Node(item);
+    Node newNode = createNode(item, null);
 
     if (head == null) {
       return newNode;

@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3669cb82-076e-4076-8567-55e15c884219" name="Changes" comment="added gitignore">
-      <change afterPath="$PROJECT_DIR$/src/Number_Theory/Miller_Rabin_Primality_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Number_Theory/PrimeFactorization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Data_Structure/Linked_List/BidirectionalLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Data_Structure/Linked_List/DoublyNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Data-Structures-and-Algorithms/Data_Structure/Array/ArrayCompression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Data-Structures-and-Algorithms/Data_Structure/Array/ArrayCompression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Data-Structures-and-Algorithms/Graph/BFS -  Level of All Nodes.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Data-Structures-and-Algorithms/Graph/BFS - Breadth First Search Using Adjacency List.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Data-Structures-and-Algorithms/Graph/Directed Graph Using Adjacency List.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Data-Structures-and-Algorithms/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data_Structure/Linked_List/Append_A_Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/Linked_List/Append_A_Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data_Structure/Linked_List/Basic Linked List Implementation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/Linked_List/Basic Linked List Implementation.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data_Structure/Linked_List/Basic_Linked_List_Implementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/Linked_List/Basic_Linked_List_Implementation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,12 +39,15 @@
     &quot;assignee&quot;: &quot;xaman-asif&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/xaman-asif/Data-Structures-and-Algorithms.git&quot;,
-    &quot;accountId&quot;: &quot;c007fa11-a1c8-4844-8cfe-884e6d307982&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/xaman-asif/Data-Structures-and-Algorithms.git",
+    "accountId": "7661e5ce-75f7-4934-86a0-4638b9e17933"
   }
-}</component>
+}]]></component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -48,7 +58,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.ArrayCompression.executor": "Run",
+    "Application.ArrayCompression.executor": "Debug",
     "Application.BinarySearch.executor": "Run",
     "Application.BitwiseSieve.executor": "Run",
     "Application.BitwiseSieve2.executor": "Run",
@@ -60,15 +70,20 @@
     "Application.Sieve_of_Eratosthenes3.executor": "Run",
     "Application.Sieve_of_Eratosthenes4.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
+    "go.import.settings.migrated": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/asifujjamanopi/IdeaProjects/Data-Structures-and-Algorithms",
+    "last_opened_file_path": "/home/opi/IdeaProjects/Data-Structures-and-Algorithms",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -77,13 +92,13 @@
       <recent name="Number_Theory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrimeFactorization">
-    <configuration name="BitwiseSieve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Number_Theory.BitwiseSieve" />
+  <component name="RunManager" selected="Application.ArrayCompression">
+    <configuration name="ArrayCompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Data_Structure.Array.ArrayCompression" />
       <module name="Data-Structures-and-Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Number_Theory.*" />
+          <option name="PATTERN" value="Data_Structure.Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,19 +160,19 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayCompression" />
         <item itemvalue="Application.PrimeFactorization" />
         <item itemvalue="Application.BitwiseSieve3" />
         <item itemvalue="Application.BitwiseSieve2" />
         <item itemvalue="Application.Sieve_of_Eratosthenes3" />
-        <item itemvalue="Application.BitwiseSieve" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.153" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.153" />
       </set>
     </attachedChunks>
   </component>
@@ -185,6 +200,8 @@
       <workItem from="1717932093636" duration="668000" />
       <workItem from="1717996531476" duration="3432000" />
       <workItem from="1718002868804" duration="5881000" />
+      <workItem from="1728896876302" duration="1077000" />
+      <workItem from="1738486475924" duration="12436000" />
     </task>
     <task id="LOCAL-00001" summary="Folder restructured">
       <option name="closed" value="true" />
@@ -283,6 +300,10 @@
     <MESSAGE value="implementation of bitwise sieve (Final)" />
     <MESSAGE value="added gitignore" />
     <option name="LAST_COMMIT_MESSAGE" value="added gitignore" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -406,6 +427,46 @@
           <url>file://$PROJECT_DIR$/src/Number_Theory/PrimeFactorization.java</url>
           <line>29</line>
           <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Data_Structure/Array/ArrayCompression.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Data_Structure/Array/ArrayCompression.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Data_Structure/Array/ArrayCompression.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Data_Structure/Array/ArrayCompression.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Data_Structure/Array/ArrayCompression.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Data_Structure/Array/ArrayCompression.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Data_Structure/Array/ArrayCompression.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Data_Structure/Array/ArrayCompression.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

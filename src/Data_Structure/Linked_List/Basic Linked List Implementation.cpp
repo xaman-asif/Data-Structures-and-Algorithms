@@ -1,3 +1,5 @@
+//https://www.shafaetsplanet.com/planetcoding/?p=2689
+
 #include <bits/stdc++.h>
 using namespace std;
 
