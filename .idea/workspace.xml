@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3669cb82-076e-4076-8567-55e15c884219" name="Changes" comment="added gitignore">
-      <change afterPath="$PROJECT_DIR$/src/Data_Structure/Linked_List/BidirectionalLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Data_Structure/Linked_List/DoublyNode.java" afterDir="false" />
+    <list default="true" id="3669cb82-076e-4076-8567-55e15c884219" name="Changes" comment="added Bidirectional Linked List implementation and updated existing linked list files">
+      <change afterPath="$PROJECT_DIR$/src/Sorting/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Data-Structures-and-Algorithms/Data_Structure/Array/ArrayCompression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Data-Structures-and-Algorithms/Data_Structure/Array/ArrayCompression.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Data-Structures-and-Algorithms/Graph/BFS -  Level of All Nodes.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Data-Structures-and-Algorithms/Graph/BFS - Breadth First Search Using Adjacency List.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Data-Structures-and-Algorithms/Graph/Directed Graph Using Adjacency List.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Data-Structures-and-Algorithms/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data_Structure/Linked_List/Append_A_Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/Linked_List/Append_A_Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data_Structure/Linked_List/Basic Linked List Implementation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/Linked_List/Basic Linked List Implementation.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data_Structure/Linked_List/Basic_Linked_List_Implementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/Linked_List/Basic_Linked_List_Implementation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +32,12 @@
     &quot;assignee&quot;: &quot;xaman-asif&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/xaman-asif/Data-Structures-and-Algorithms.git",
-    "accountId": "7661e5ce-75f7-4934-86a0-4638b9e17933"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/xaman-asif/Data-Structures-and-Algorithms.git&quot;,
+    &quot;accountId&quot;: &quot;7661e5ce-75f7-4934-86a0-4638b9e17933&quot;
   }
-}]]></component>
+}</component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="true" />
   </component>
@@ -63,8 +56,11 @@
     "Application.BitwiseSieve.executor": "Run",
     "Application.BitwiseSieve2.executor": "Run",
     "Application.BitwiseSieve3.executor": "Run",
+    "Application.BubbleSort.executor": "Debug",
+    "Application.InsertionSort.executor": "Debug",
     "Application.Main.executor": "Run",
     "Application.PrimeFactorization.executor": "Run",
+    "Application.SelectionSort.executor": "Debug",
     "Application.Sieve_of_Eratosthenes.executor": "Run",
     "Application.Sieve_of_Eratosthenes2.executor": "Debug",
     "Application.Sieve_of_Eratosthenes3.executor": "Run",
@@ -92,7 +88,7 @@
       <recent name="Number_Theory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayCompression">
+  <component name="RunManager" selected="Application.InsertionSort">
     <configuration name="ArrayCompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Data_Structure.Array.ArrayCompression" />
       <module name="Data-Structures-and-Algorithms" />
@@ -106,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BitwiseSieve2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Number_Theory.BitwiseSieve2" />
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting.BubbleSort" />
       <module name="Data-Structures-and-Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Number_Theory.*" />
+          <option name="PATTERN" value="Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BitwiseSieve3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Number_Theory.BitwiseSieve3" />
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting.InsertionSort" />
       <module name="Data-Structures-and-Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Number_Theory.*" />
+          <option name="PATTERN" value="Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sieve_of_Eratosthenes3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Number_Theory.Sieve_of_Eratosthenes3" />
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting.SelectionSort" />
       <module name="Data-Structures-and-Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Number_Theory.*" />
+          <option name="PATTERN" value="Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,19 +156,19 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InsertionSort" />
+        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.ArrayCompression" />
         <item itemvalue="Application.PrimeFactorization" />
-        <item itemvalue="Application.BitwiseSieve3" />
-        <item itemvalue="Application.BitwiseSieve2" />
-        <item itemvalue="Application.Sieve_of_Eratosthenes3" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.153" />
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.153" />
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.189" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.189" />
       </set>
     </attachedChunks>
   </component>
@@ -202,6 +198,8 @@
       <workItem from="1718002868804" duration="5881000" />
       <workItem from="1728896876302" duration="1077000" />
       <workItem from="1738486475924" duration="12436000" />
+      <workItem from="1739942264720" duration="1113000" />
+      <workItem from="1740309122288" duration="3877000" />
     </task>
     <task id="LOCAL-00001" summary="Folder restructured">
       <option name="closed" value="true" />
@@ -275,7 +273,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717939381737</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added Bidirectional Linked List implementation and updated existing linked list files">
+      <option name="closed" value="true" />
+      <created>1739942383444</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1739942383444</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,7 +305,8 @@
     <MESSAGE value="implementation of sieve of eratosthenes (partial)" />
     <MESSAGE value="implementation of bitwise sieve (Final)" />
     <MESSAGE value="added gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="added gitignore" />
+    <MESSAGE value="added Bidirectional Linked List implementation and updated existing linked list files" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Bidirectional Linked List implementation and updated existing linked list files" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
@@ -467,6 +474,21 @@
           <url>file://$PROJECT_DIR$/src/Data_Structure/Array/ArrayCompression.java</url>
           <line>40</line>
           <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sorting/SelectionSort.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sorting/BubbleSort.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sorting/InsertionSort.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
